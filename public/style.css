@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: #d4d1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    padding: 15px;
+    background-color: #fff;
+    height: 480px;
+    width: 370px;
+    border-radius: 30px;
+    box-shadow: 0px 6px 10px 12px rgb(133, 131, 131);
+
+}
+
+.form h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(119, 0, 255);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 10px ;
+    border-radius: 10px;
+    border: none;
+    background-color: #b8b6b6;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 80px;
+    padding: 10px;
+}
+
+#textarea{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+button{
+    width: 100%;
+    background-color: rgb(119, 0, 255);;
+    padding: 10px ;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+}
+
+button:hover{
+    transition: 0.2s ease-in-out;
+    background-color:rgb(145, 58, 245);
+}
+
+/* submitted */
+
+.form-submitted{
+    width: 480px;
+    border-radius: 30px;
+    padding: 40px;
+    background-color: #fff;
+    height: 100px;
+    box-shadow: 0px 6px 10px 12px rgb(133, 131, 131);
+
+
+}
+
+
+.container1{
+    height: 100vh;
+    background-color: #d4d1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.submit{
+    background-color: #fff;
+    min-height:150px ;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 10px 12px rgb(133, 131, 131);
+
+}
+.submit a{
+    text-decoration: none;
+    background-color:rgb(119, 0, 255);
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+.submit p{
+    margin-bottom: 10px;
+}
+
+.submit h1{
+    margin-bottom: 20px;
+    color: rebeccapurple;
+}
